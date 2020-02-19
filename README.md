@@ -2,11 +2,11 @@
 Busque uma data inserida dentro do texto com facilidade!
 
 ## Packages necessários:
-- [npmjs/ms](https://www.npmjs.com/package/ms) para transformar a string em milisegundos.
+- [npmjs/ms](https://www.npmjs.com/package/ms) - Para transformar a string em milisegundos.
 ```javascript
 npm install ms
 ```
-- [npmjs/moment](https://www.npmjs.com/package/moment) para formatar os milisegundos em uma data.
+- [npmjs/moment](https://www.npmjs.com/package/moment) - Para formatar os milisegundos em uma data.
 ```javascript
 npm install moment
 ```
