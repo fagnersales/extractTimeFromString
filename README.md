@@ -1,4 +1,4 @@
-# msFormater
+# extractTimeFromString
 Busque uma data inserida dentro do texto com facilidade!
 
 ## Packages necessários:
