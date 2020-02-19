@@ -64,17 +64,17 @@ async function extractTimeFromString(string) {
 ```
 ## Utilizando a função extractTimeFromString
 ```javascript
-extractTimeFromString("!kick <@474407357649256448> dois dias").then(console.log).catch(console.error);
+extractTimeFromString("!kick <@474407357649256448> dois dias").then(console.log).catch(err => console.log(err.message))
 // ∟ console: Não há tempo no texto.
 
-extractTimeFromString("!kick <@474407357649256448> 2dias").then(console.log).catch(console.error);
+extractTimeFromString("!kick <@474407357649256448> 2dias").then(console.log).catch(err => console.log(err.message))
 // ∟ console: {
 //  between: [ 28, 34 ],
 //  ms: 1582273777448,
 //  formated: '21 de Fev de 2020 às 05:29'
 // }
 
-extractTimeFromString("!kick <@474407357649256448>     25minutos").then(console.log).catch(console.error);
+extractTimeFromString("!kick <@474407357649256448>     25minutos").then(console.log).catch(err => console.log(err.message))
 // ∟ console: {
 //  between: [ 32, 42 ],
 //  ms: 1582102508349,
@@ -84,7 +84,7 @@ extractTimeFromString("!kick <@474407357649256448>     25minutos").then(console.
 extractTimeFromString().then(console.log).catch(console.error);
 // ∟ console: Você precisa especificar a string!
 
-extractTimeFromString("!kick <@474407357649256448> 2 horas SPAM/Flood").then(console.log).catch(console.error);
+extractTimeFromString("!kick <@474407357649256448> 2 horas SPAM").then(console.log).catch(err => console.log(err.message));
 // ∟ console: {
 //  between: [ 28, 35 ],
 //  ms: 1582108275039,
