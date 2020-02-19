@@ -14,7 +14,7 @@ npm install moment
 ### extracTimeFromString() `source`:
 ```javascript
 const moment = require("moment");
-moment.locale(pt-br);
+moment.locale("pt-br");
 const ms = require("ms");
 
 async function extractTimeFromString(string) {
