@@ -23,7 +23,7 @@ async function extractTimeFromString(string) {
   const timePattern = /\d+\s?(days?|hours?|minutes?|dias?|horas?|minutos?|d|h|m)/gi;
   
   // criar um novo RegExp
-  const timeRegex = new ReExp(timePattern);
+  const timeRegex = new RegExp(timePattern);
   
   // O método `exec();` procura por um equivalente na string baseado no regex. 
   const result = timeRegex.exec(string);
