@@ -93,16 +93,19 @@ extractTimeFromString("!kick <@474407357649256448> 2 horas SPAM").then(console.l
 ```
 
 #### Links para auxiliar na compreensão do código:
-ordenados com base na aparição dentro da função extractTimeFromString
+Ordenados com base na aparição dentro da função extractTimeFromString
 
-1. [Moment Docs](https://momentjs.com/docs/) - const moment = require("moment");
-2. [ms Docs](https://www.npmjs.com/package/ms) - const ms = require("ms");
-3. [Async Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas) - async function extractTimeFromString(string) {
-4. [RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp) - const timeRegex = new ReExp(timePattern);
-5. [exec(); Method](https://www.w3schools.com/jsref/jsref_regexp_exec.asp) - const result = timeRegex.exec(string);
-6. [replace(); Method](https://www.w3schools.com/jsref/jsref_replace.asp) - type = type.replace(/dia(s)?/gi, "days");
-7. [Date Object](https://www.w3schools.com/js/js_dates.asp) - const miliseconds = new Date().getTime() + ms(number + type);
-8. [Array](https://www.w3schools.com/js/js_arrays.asp) - between: [firstIndexPosition, lastIndexPosition],
+1. [Moment Docs](https://momentjs.com/docs/) - `const moment = require("moment");`
+2. [ms Docs](https://www.npmjs.com/package/ms) - `const ms = require("ms");`
+3. [Async Function](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Statements/funcoes_assincronas) - `async function extractTimeFromString(string) {`
+4. [RegExp Reference](https://www.w3schools.com/jsref/jsref_obj_regexp.asp) - `const timeRegex = new ReExp(timePattern);`
+5. [exec(); Method](https://www.w3schools.com/jsref/jsref_regexp_exec.asp) - `const result = timeRegex.exec(string);`
+6. [replace(); Method](https://www.w3schools.com/jsref/jsref_replace.asp) - `type = type.replace(/dia(s)?/gi, "days");`
+7. [Date Object](https://www.w3schools.com/js/js_dates.asp) - `const miliseconds = new Date().getTime() + ms(number + type);`
+8. [Array](https://www.w3schools.com/js/js_arrays.asp) - `between: [firstIndexPosition, lastIndexPosition],`
 
 Obrigado e espero ter ajudado!
 Para dúvidas você pode me chamar no discord! Eleven_#8917
+
+
+(Deixe uma estrelinha caso tenha sido útil!!)
