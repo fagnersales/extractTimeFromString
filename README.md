@@ -90,6 +90,23 @@ extractTimeFromString("!kick <@474407357649256448> 2 horas SPAM").then(console.l
 //  ms: 1582108275039,
 //  formated: '19 de Fev de 2020 às 07:31'
 // }
+
+extractTimeFromString("!kick <@474407357649256448> 2h SPAM").then(console.log).catch(err => console.log(err.message));
+// ∟ console: {
+//  between: [ 28, 35 ],
+//  ms: 1582108275039,
+//  formated: '19 de Fev de 2020 às 07:31'
+// }
+```
+
+#### Tempos considerados válidos:
+```
+12day
+12 dias
+12d
+12h
+12 hOrAS
+12 MINuTEs
 ```
 
 #### Links para auxiliar na compreensão do código:
